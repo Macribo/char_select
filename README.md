@@ -1,26 +1,32 @@
-
+<img src="https://imgur.com/eWu5B37.png" width="680">
 Romantic Ireland
 
 Lies in a silent valley
 
 on the Moon.
 
-Teachtaracht o Roinn na Gnothai Geallaí
-Incomming transmission from the Ministry of Lunar Affairs:
 
-Tchanss...
+<br>
+Let's just pretend that this works right now.
+<br>
+<img src="https://imgur.com/GMHImR0.png">
+<br>
+There's obviously more code to write rewrite read right rw and or © 
+<br>
+but dont just imagine - 
+<br>
+<img src= "https://imgur.com/6M9WpY4.png" width="680">
 
-Nach eiróidh linn;
-tchanss 'nar dul amú.
-Pointe onóir é
-ár seacht ndícheal;
-tchanss onóir é
-tchanss gur fiú.
 
-Ón nádúr a thánamar.
-Ár gníomh, gníomh an nádúr.
-Bímís gníomhach.
+<br>
+<img src="https://imgur.com/KMyOAn3.png" width="680">
 
+<h2>Teachtaracht o Roinn na Gnothai Geallaí
+Incomming transmission from the Ministry of Lunar Affairs:</h2>
+
+<h1>Tchanss...</h1>
+<br>
+<img src="https://i.imgur.com/GMHImR0.png" width="680">
 
 An bhfuil níos mó i gceist le teanga ná caint?
 
@@ -29,139 +35,38 @@ Tá.
 Go minic smaoinín daoine ar costas nuair a deantar Gaelachas agus an Gaeilge a plé.  Is fior go bhfuil costas airgead agus fuinneamh ag bainnt leis an teanga a chaobhnú.  
 
 
-Tá sé deachair luach an teanga a thomhais, gan í a thuiscint. Luach Teanga, luach tuiscint.
+Tá sé deachair lúach an teanga a thomhais, gan í a thuiscint. Lúach Teanga, lúach tuiscint.
 
-Ní linn uiscí na hÉireann. Ní i ndarríre. 
+Ní linn uiscí na hÉireann, ní i ndarríre. 
 Ní linn na híasc na habhainn nó na crínn sna foirís. 
-Ár samhlíocht an áis is luachmhar gur linn í. 
+Ár samhlíocht an áis is lúachmhar gur linn í. 
 7
 Tá sé in ám í a dhuiseacht.
 
-<h3>
-
-
-	auxie_1:`
-	
-		Let's just pretend that this works right now.
-		There's obviously more code to write rewrite read right rw and or © 
-		but dont just imagine:
-	
-		<div className="nuts" id=>
-		Cnó</div>
-	
-	`,
-	auxie_2:`
-	
-		Personal Branding!
-		A Brand is a promise kept.
-		What's your brand?
-	
-		Nice to meet you ''<div className=""></div>
-		Successful brands deliver on their promise.
-		
-	
-	`,
-	
-	auxie_3:`
-	
-	you could say look man, i admire this animal 
-	for its savage beauty 
-	refined beyond all flight of imagining, 
-	since dinosaurs reigned.
-	
-	i wish to hell it had never been so wounded,
-	but I have no malice for the bowman's children.
-	
-	the thing is, we can't continue like this. 
-	Live or die, the arrow must be withdrawn.
-	Either withdraw the arrow or fire another one. 
-	That is the unbroken law of Breathon's hawk.
-	
-	
-	you reach out gently.
-	as your hand approaches, it's eyes lock with yours. you see an awesome thoil chun troda, clisteacht 7 bród
-	look closer ? 
-	níl aon fuill le ftheiscint. Chuirann tú lámh síos. 
-	bhreatistin tú preab toban sna cleití bogadh a baineann síar asat.
-	
-	: grab the arrow ? 
-	
-	hearty fuck you to captain blUrNStfu?
-	were just here tae blow shit up so we R :  
-	The language cannot be killed. It can only die in you
-	
-	select
-	
-	dead bird | síar
-	
-	
-	
-	fuck the hate
-	#code
-	
-	`,
-	
-	
-	auxie_4:`
-	
-	Ba maith liom leabairt le madraí<div className="">
-	</div>
-
-	Mad rí or madraí?
-
-	a | b
-	`
-</h3>
-cad tása chiste?
-II. chláraigh le filebox.io chun leanúnt ar aghaidh.
-
-let beginnings =[{
-
-h2'eist anois go géar agus abair lin; cad a chloisean tú? >bó ag cogaint, >asal ag cogaint,>
- tada'
-},{'an coir kíap':'mp31.rand};
-
-
-Leabhair leis an crann.
-Cad is ainm dhuit?
-//var
-
-mac le /var rand1 ?
-is me? Sean aithne againn ar bhur sinsar uasal. ba a mac b mac c mac d ui /rand contae do shin shin shin sean rand mathar/athair; agus ta [claim] agat ar paiste talun ansin fos.
-
-ca bhfuil me
-
-Seo Tir Aslín; An Cuigú Cúige. Muidne Fíanna Sidh. Ar mhaith leat siul a chaithamh síar ar na heachtrí ar thóg chun an pointe seo thu?
-
-
-
-<h2>
-Fadó fadó in 3ireann, roimh teacht an Nua aois...
-</h2>
-stop/ar aghaidh
-[sceal na gael 1]: ba miath liom imeacht. //Go brea! Ach cogair focail faire le go naithnofar aris thu, a //ainm iomlan:
-
-Feichfaidh muid aris thu ar ball...  sios sios visitors
-
-0 {tús phonte : onomatopae fuam match.mp3 [lv0,lv1,...19 lv ]; if(onomatopae score !==0){
-
-
-roghnaigh go tapadg anois agus beidh deis agat absin arball é a thabhairt chun foirfeachta.
-
-
->foghlaim an coinceap>
-
-ghinnunt characteir> glach seileamh ar an talamh> roghadh clarau le linkbox.
-
-
-*/
-
 "Raight"
-arsa an Ginearál Airgids,
-"Tá muid gann ar achmhanaí. Ach tá 30,000 fáinní sídh dúnta againn. 
-Cad deirfá faoi sean chiorcal amháin a oscailt? hau? Ar feadh cúpla nóméad. Cad deirfá faoi sin. roighnaigh ceann.
+arsa an Ministéir,
+
+<img src= "http://api.ning.com/files/xLJQfJNYZ-yQpCaWO0uF8GYQ8DsiwQ3erwYd5t4xKvKnGQI6DqGqWjiXcwRXIVch5uQmbG-6gN9y-mLLAmXtK6oi9im87TbM/collins.jpg" width="680">
 
 
+<h3>
+cad tá sa chiste? | How are our finances?
+</h3>
+
+
+Tá muid gann ar achmhanaí. Ach tá na mílte fáinní sídh aginn. | We are low on resources, but we have some unopened fairy rings. Sir.
+
+<br>
+
+<img src= "https://i.imgur.com/FdOnfC5.png" width="680">
+
+<br>
+Cad deirfá faoi sean chiorcal amháin a oscailt? hau? Ar feadh cúpla nóméad. Cad deirfá faoi sin. roighnaigh ceann. | What would you say to opening one old circle? Just for a few minutes. 
+<br>
+<h2>Choose one.</h2>
+
+<img src= "https://imgur.com/58LxqbR.png" width="680">
+<br>
 "A dhuine úasal," arsa mise leis.
 ...
 
@@ -172,14 +77,16 @@ An feidir Gaeilge a thuiscint i mBearla?
 
 Samhlaigh ar feadh nóméad gur
 easpa spás is cuis len ár dúcheist teanga.
-
-Ní  Ní easpa Gaeilge is cúis len ár dúcheist Teanga,
+<br>
+<img src="https://imgur.com/npy1wGO.png" width ="680">
+<br>
+Ní easpa Gaeilge is cúis len ár dúcheist Teanga,
 Ní de bhárr easpa spéis go bhfuil muid lag intí;
 
 cinnte ní de bharr easpa iarracht ach oiread.
 
 Tá an Gaeilge faoí chéilt.
-
+<img src="https://imgur.com/2mcbyRx.png" width ="680">
 
 Mar freagra ar ceist mór na Gael:
 Spás fiorúl i nGaeilge
@@ -188,17 +95,17 @@ Linn aithrú a spreagadh sa scéal
 
 Is feidir linn líofacht a fáil arís ar an Gaeilge, le cheile, i spás fíorúil; 
 i gcomhair beart agus bríthar.
+<br>
 
-
-Tá seoda agat mar sin!
-
-
+<h3>Tá seoda agat mar sin!</h3>
+<br>
+<img src="https://i.imgur.com/o96ZNAw.jpg" width ="680">
 
 Ní feidir smaoineamh i nGaeilge, i mBearla.
 
 I mBearla, tá an Gaeilge glanscartha ó brí an Gaeilge.
 
-I mBearla, caithfaidh muid an Gaeilge a pléa amhlaidh gur dilín í. 
+I mBearla, caithfaidh muid an Gaeilge a pléa amhlaidh gur dilín í.  (ornament)
 Ní tuigtar go mbeadh aon tionchar ar sochaí ag breith greidhm ar an Gaeilge arís.
 
 Plétar í i leith 'Irish Speakers'. 
@@ -215,8 +122,9 @@ Tá Gaeilge éigin ag gach Bearl-cainteoir sa tír. Ní ábhar fachnaoid iad na 
 
 Ar mhaith leat tríal a bhainnt as nós nua?
 
-
-
+<br>
+<img src="https://imgur.com/StNBvWf.png" width ="680">
+<br>
 O náid.
 
 1, 2 3.. 10
