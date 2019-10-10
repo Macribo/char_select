@@ -4,7 +4,8 @@
 
 $('#about').on('click', function(){
 // alert('ey')
-$('#dark-frame').fadeIn();
+$('#dark-frame').fadeTo('slow',1);
+$('#hold-frame').fadeIn();
 $('#holdSlide').fadeIn();
 
 $('#carousel').fadeIn();
