@@ -21,7 +21,6 @@ Incomming transmission from the Ministry of Lunar Affairs:</h2>
 
 <h1>Tchanss...</h1>
 <br>
-<img src="https://i.imgur.com/GMHImR0.png" width="680">
 
 
 <h3>
