@@ -214,19 +214,19 @@ p
 }
 
 #about {
-  top: 5%;
+  /* top: 5%;
   right: 7%;
   position: fixed;
-  display: none;
-  animation: 1s color-change infinite alternate linear;
+  display: none; */
+  animation: 32s color-change infinite alternate ease-in-out;
 }
 
 @keyframes color-change {
   from {
-    background-color: #ffbf00;
+    background-color: #303030;
   }
   to {
-    background-color: #f714e4;
+    background-color: #38c401;
   }
 }
 
@@ -411,10 +411,11 @@ padding-bottom:200px;
   display:none;
 /* border:2px solid orange; */
   height:200px;
+  width:100%;
+  font-size:3em;
   text-align: center;
   background-color:rgba(63, 59, 59,0);
   color:greenyellow;
-  width:100%;
   z-index: 4000;
 
 

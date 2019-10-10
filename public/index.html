@@ -35,6 +35,7 @@
       <link rel="stylesheet" type="text/css" href="css/tall-order.css" />
       <link rel="stylesheet" type="text/css" href="css/history.css" />
       <link rel="stylesheet" type="text/css" href="css/chat.css" />
+      <link href="css/rain.css" rel="stylesheet" type="text/css">
 <script src= "./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
    </head>
    <script>
@@ -49,7 +50,8 @@
    </script>
    <body  onload="loadIt()" id="toLoad">
 
-      <div id="hold-frame">
+      <div id="hold-frame" >
+         <div class="rain"></div>
          <img src="./images/bg_Dark.png" id="dark-frame">
          <div id="holdSlide">
             <div id="carousel" class="carousel slide carousel-fade hidden">
@@ -59,9 +61,8 @@
                   </div>
                   <div id="demo">
                   </div>
-               </div>
             </div>
-         </div>
+         </div></div>
       </div>
       <!-- close hold-frame-->
       <div class="wrapper">
@@ -76,11 +77,11 @@
             </div> -->
 
          </div>
-         <div class="box content ">
+         <div class="box content">
 
-            <div id="tall-order">
+            <div id="tall-order"  >
                <div id="stage"></div>
-               <div id="stageBG">
+               <div id="stageBG" >
                     <div class="cubes"></div>
 
             </div>
@@ -103,8 +104,7 @@
                      <!-- <image id="bg-img2" class="align-text-bottom align-right" src="./assets/images/backgrounds/menuBGRight.png"> -->
                   </div>
                   <div id="btn-panel">
-                     <button type="button" id="about" class="about btn  btn-info btn-lg mr-5">about
-                     </button>
+                
                      <button type="button" id="skip" class="skip btn btn-secondary btn-lg mr-5">next
                      </button>
                      <!-- <button type="button" id="start" class="start btn btn-info btn-lg mr-5">start -->
@@ -142,12 +142,7 @@
          integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
          crossorigin="anonymous"
          ></script>
-      <script src="./js/veue.js"></script>
-      <script src="./js/js-cookie-1.5.1/src/js.cookie.js"></script>
-      <script src="./js/tall-order.js"></script>
-      <script src="js/tota11y.min.js"></script>
-      <script src="js/translator.js"></script>
-      <script src="js/chat.js"></script>
+   
       <!-- <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div> -->
       
       <div class="ui">
@@ -159,14 +154,17 @@
                <img src="https://i.imgur.com/VG5vL2X.png" width="60" />
                
             </button>
-            <button type="button" class="btn btn-outline-light">
+            <button type="button" id="about" class="btn btn-outline-light">
                <img src="https://i.imgur.com/fpexy6i.png" width="60" />
                
             </button>
-                
-
+                 <form action="#" onsubmit="playerShouts()">
+                  <input type="text" class="playerShout" > 
+               </form>
+       
                   
-                  <input type="text" class="playerShout">  <div id="example2"></div>
+                  <!-- example2 is the raindops ripple effect plugin -->
+                  <div id="example2"></div>
                </div>
    </div>
 
@@ -176,6 +174,16 @@
 <script>
 
 </script>
-   </body>
 
+<!-- <div class="rain" id="constrain-rain"></div> -->
+
+
+   </body>
+   <script src="./js/veue.js"></script>
+      <script src="./js/js-cookie-1.5.1/src/js.cookie.js"></script>
+      <script src="./js/tall-order.js"></script>
+      <script src="js/tota11y.min.js"></script>
+      <script src="js/translator.js"></script>
+      <script src="js/chat.js"></script>
+      <script src="js/meditate.js"></script>
 </html>

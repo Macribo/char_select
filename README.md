@@ -1,26 +1,23 @@
 <a href= "https://macribo.github.io/char_select/public/index.html">View in Browser</a>
 
+<<<<<<< HEAD
 <img src="https://imgur.com/eWu5B37.png" width="680">
+=======
+<!-- <img src="https://imgur.com/eWu5B37.png" width="680"> -->
+<center>
+<img src="https://i.imgur.com/OoopIuF.png">
+>>>>>>> master
 Romantic Ireland
+<br>
 
 Lies in a silent valley
 
 on the Moon.
 
+<br>
 
 <br>
-Let's just pretend that this works right now.
-<br>
-<img src="https://imgur.com/GMHImR0.png">
-<br>
-There's obviously more code to write rewrite read right rw and or © 
-<br>
-but dont just imagine - 
-<br>
-<img src= "https://imgur.com/6M9WpY4.png" width="680">
 
-
-<br>
 <img src="https://imgur.com/KMyOAn3.png" width="680">
 
 <h2>Teachtaracht o Roinn na Gnothai Geallaí
@@ -28,11 +25,15 @@ Incomming transmission from the Ministry of Lunar Affairs:</h2>
 
 <h1>Tchanss...</h1>
 <br>
-<img src="https://i.imgur.com/GMHImR0.png" width="680">
 
-An bhfuil níos mó i gceist le teanga ná caint?
 
-Tá.
+<h3>
+<div style="animation:delay-fade-in 0.5s;">
+<span id='Is there more involved with language than speech?'>An bhfuil níos mó i gceist le teanga ná caint?</span>  
+</div>
+</h3>
+
+<button>Tá.</button><button> Níl</button>
 
 Go minic smaoinín daoine ar costas nuair a deantar Gaelachas agus an Gaeilge a plé.  Is fior go bhfuil costas airgead agus fuinneamh ag bainnt leis an teanga a chaobhnú.  
 
@@ -251,3 +252,4 @@ Tá an ceart agat!
 
 
 fin. sceal.
+</center>
