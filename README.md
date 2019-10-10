@@ -1,12 +1,10 @@
 <a href= "https://macribo.github.io/char_select/public/index.html">View in Browser</a>
 
-<<<<<<< HEAD
-<img src="https://imgur.com/eWu5B37.png" width="680">
-=======
+
 <!-- <img src="https://imgur.com/eWu5B37.png" width="680"> -->
 <center>
 <img src="https://i.imgur.com/OoopIuF.png">
->>>>>>> master
+
 Romantic Ireland
 <br>
 
