@@ -311,6 +311,8 @@ $(document).ready(function() {
         console.log('Amergín');
         // wait = 1000;
         goToSlide(4);
+        alert("hey");
+$('#done').fadeTo(1);
 
         break;
 
@@ -474,7 +476,6 @@ $(document).ready(function() {
         $('#veue').fadeTo('slow', 1);
         // $('#skip').fadeTo('slow',0);
         $('#btn-menu').fadeTo('slow', 1);
-
         break;
 
       default:
@@ -522,6 +523,8 @@ $(document).ready(function() {
       setTimeout(function() {
         $('#skip').fadeTo('slow', 0.4);
         $('#skip').css('pointer-events', 'auto');
+$('#done').css('pointer-events', 'auto');
+
       }, 500);
     }, 1000);
 
@@ -553,4 +556,5 @@ $(document).ready(function() {
       });
     }, 800);
   });
+
 });

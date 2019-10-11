@@ -161,6 +161,7 @@ body {
   pointer-events: none;
 }
 
+
 /* .amergin{
   position:fixed;
   display:block;
@@ -417,3 +418,9 @@ left:0%; */
   -webkit-transition: all 0.3s 1s ease-out;
   transition: all 0.3s 1s ease-out;
 }
+
+/* #done{
+  poiner-events: auto;
+  background-color:rgba(103, 151, 75,0.8)
+
+} */
