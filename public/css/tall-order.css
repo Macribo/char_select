@@ -5,6 +5,7 @@
 #gaeilge{
   font-family:'aonchlo';
   font-weight:900;
+  padding:10px;
 }
 #stage {
   position: relative;
@@ -218,6 +219,8 @@ p
 }
 
 #about {
+  padding:10px;
+
   /* top: 5%;
   right: 7%;
   position: fixed;

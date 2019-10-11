@@ -74,8 +74,11 @@ $(document).ready(function() {
   ];
 
   var lastPressed = ''; //what was the last key pressed?
+  let currentBGImage = "./images/maps/localMaps/u184.png";
 
   //Map code
+  let currentPlayerGraphic = './images/imreoir.gif'
+  var BRL = 'brl';
   var SUAS = '^';
   var SIOS = 'v';
   var CLÉ = '<';
@@ -321,7 +324,8 @@ $(document).ready(function() {
           case EMPTY:
             cell.src = './images/folamh.png';
             break;
-
+          case BRL: cell.src= './images/imreoir.gif';
+          break;
           case STANDINGSTONE:
             cell.src = './images/locations/AnBhograchBeag.png';
             break;
@@ -409,16 +413,16 @@ $(document).ready(function() {
             break;
           case BLOCKED:
             cell.src = './images/folamh.png';
-        }
+
+          }
 
         if (gameObjects[sheepRow][sheepColumn] === MONSTER) {
           alert('collision!');
         }
-
         //Add the sheep from the gameObjects array
         switch (gameObjects[row][column]) {
           case sheep:
-            cell.src = './images/imreoir.gif';
+            cell.src = currentPlayerGraphic;
             cell.id = 'hero';
             break;
           // case MONSTER:
@@ -1878,7 +1882,7 @@ $(document).ready(function() {
   updateBGImage = () => {
     var bg;
     locationMapInfo.getAll().forEach(function(location) {
-      bg = 'url("./images/maps/localMaps/u184.png")';
+      bg = 'url('+ currentBGImage+')';
       //   alert(bg);
       $('#stageBG').css('background-image', bg);
       console.log('bg:  ' + bg);
@@ -2006,15 +2010,6 @@ $(document).ready(function() {
 /////////
 
 
-runIrishMode = ()=> {
-  // alert('ok');
-  $('#button-menu').remove();
-
-
-}
-$('#gaeilge').on('click', runIrishMode);
-/////////
-
 
 playerShouts = () => {
   //console.log( "Handler for .keypress() called." );
@@ -2027,6 +2022,51 @@ jQuery('#example2').raindrops(
 	canvasHeight:200});
 
 
+  
+  
+runIrishMode = ()=> {
+  // alert('ok');
+  $('#about').remove();
+  $('#gaeilge').remove();
+
+$('#button-menu').prepend(` 
+<button type="button" id="shout"class="btn btn-outline-light">
+   <img src="https://i.imgur.com/vpNBbtp.png" width="60" />
+</button>
+<button type="button" class="btn btn-outline-light">
+   <img src="https://i.imgur.com/VG5vL2X.png" width="60" />
+   
+</button>
+`)
+
+map = [
+  [7, 7, 7, 7, 7, 7, 7 ,'brl', 7, 7, 7, 7, 7, 7, 7, 7],
+  [7, '.', '.', '.', '.', '.', 7, 7,7, '.', '.', '.', '.', '.', '.', 7],
+  [7, '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 7],
+  [7, '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 7],
+  [7, '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 7],
+  [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+
+];
+
+
+gameObjects = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+];
+//The game objects map
+sheepRow = 4;
+sheepColumn = 5;
+currentPlayerGraphic = './images/fianna1.png';
+gameObjects[sheepRow][sheepColumn] = 0;
+gameObjects[4][5] = sheep;
+
+currentBGImage = './images/maps/localMaps/gaeilge.png';
+updateBGImage();
 $('#shout').on('click', function(){
   // alert('hey')
 setTimeout(function(){
@@ -2036,9 +2076,12 @@ setTimeout(function(){
 },1000);
   $('.btn').fadeOut();
 
-
+  
 });
-
+render();
+}
+$('#gaeilge').on('click', runIrishMode);
+/////////
 
 ///////////
 
