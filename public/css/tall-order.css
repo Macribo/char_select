@@ -2,6 +2,10 @@
   font-family: aonchlo;
   src: url('../fonts/aonchlo.ttf');
 }
+#gaeilge{
+  font-family:'aonchlo';
+  font-weight:900;
+}
 #stage {
   position: relative;
   /* border: 2px solid blue; */
@@ -218,7 +222,7 @@ p
   right: 7%;
   position: fixed;
   display: none; */
-  animation: 32s color-change infinite alternate ease-in-out;
+  /* animation: 32s color-change infinite alternate ease-in-out; */
 }
 
 @keyframes color-change {

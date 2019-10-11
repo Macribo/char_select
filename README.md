@@ -2,11 +2,11 @@
 
 
 <!-- <img src="https://imgur.com/eWu5B37.png" width="680"> -->
-<center>
+
 <img src="https://i.imgur.com/OoopIuF.png">
 
 Romantic Ireland
-<br>
+
 
 Lies in a silent valley
 
@@ -18,7 +18,7 @@ on the Moon.
 
 <img src="https://imgur.com/KMyOAn3.png" width="680">
 
-<h2>Teachtaracht o Roinn na Gnothai Geallaí
+<h2>Teachtaracht ó oiffig ministéir Gnothaí Geallach
 Incomming transmission from the Ministry of Lunar Affairs:</h2>
 
 <h1>Tchanss...</h1>
@@ -27,7 +27,7 @@ Incomming transmission from the Ministry of Lunar Affairs:</h2>
 
 <h3>
 <div style="animation:delay-fade-in 0.5s;">
-<span id='Is there more involved with language than speech?'>An bhfuil níos mó i gceist le teanga ná caint?</span>  
+<span id='Is there more involved with language than speech?'>Go bhfuil níos mó i gceist le teanga ná caint.</span>  
 </div>
 </h3>
 
