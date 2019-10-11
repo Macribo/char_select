@@ -2003,7 +2003,16 @@ $(document).ready(function() {
   }
 
 
+/////////
 
+
+runIrishMode = ()=> {
+  // alert('ok');
+  $('#button-menu').remove();
+
+
+}
+$('#gaeilge').on('click', runIrishMode);
 /////////
 
 
