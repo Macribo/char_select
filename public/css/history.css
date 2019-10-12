@@ -157,6 +157,7 @@ body {
 
 #skip {
   opacity: 0;
+  background-color:rgba(103, 151, 75,0.8);
 
   pointer-events: none;
 }
@@ -419,8 +420,6 @@ left:0%; */
   transition: all 0.3s 1s ease-out;
 }
 
-/* #done{
-  poiner-events: auto;
-  background-color:rgba(103, 151, 75,0.8)
-
-} */
+#done{
+ opacity:0;
+}

@@ -2060,13 +2060,16 @@ gameObjects = [
 ];
 //The game objects map
 sheepRow = 4;
-sheepColumn = 5;
+sheepColumn = 7;
 currentPlayerGraphic = './images/fianna1.png';
 gameObjects[sheepRow][sheepColumn] = 0;
-gameObjects[4][5] = sheep;
+gameObjects[4][7] = sheep;
 
 currentBGImage = './images/maps/localMaps/gaeilge.png';
 updateBGImage();
+
+
+
 $('#shout').on('click', function(){
   // alert('hey')
 setTimeout(function(){

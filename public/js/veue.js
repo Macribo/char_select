@@ -311,8 +311,7 @@ $(document).ready(function() {
         console.log('Amergín');
         // wait = 1000;
         goToSlide(4);
-        alert("hey");
-$('#done').fadeTo(1);
+        // alert("hey");
 
         break;
 
@@ -522,6 +521,7 @@ $('#done').fadeTo(1);
       $('#veue').fadeOut();
       setTimeout(function() {
         $('#skip').fadeTo('slow', 0.4);
+        $('#done').fadeTo('slow', 0.4);
         $('#skip').css('pointer-events', 'auto');
 $('#done').css('pointer-events', 'auto');
 
@@ -556,5 +556,14 @@ $('#done').css('pointer-events', 'auto');
       });
     }, 800);
   });
+  $('#done').on('click', function(){
+    $('#tall-order').fadeIn();
+    $('#button-menu').prepend(`<button type="button" id="about" class="btn btn-outline-light">English</button>`);
+    $('#stage').fadeIn();
+    $('#ui').fadeIn();
+    $('#hold-frame').fadeOut();
+    $('#btn-panel').fadeOut();
+
+   });
 
 });
