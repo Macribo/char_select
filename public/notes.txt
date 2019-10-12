@@ -44,8 +44,8 @@ chun leannúnt ar a
  
  Lorg  Tániste 
  
- Cén saighs tánaiste a lorgoidh tú?
-rand [Fear naofa ó bun plúis], go gáird sa spéir,x i measc na ndraoithe nua.
+ Cén saighs tánaiste a roghnófá?
+rand ['Fear spioradálta ó sceilig rúnda','Sean Saighdúr le teathaí fíníochta','',''], go gáird sa spéir,x i measc na ndraoithe nua.
  
  
  Cá lorgoidh tú Tánaiste?

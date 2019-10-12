@@ -2028,7 +2028,7 @@ runIrishMode = ()=> {
   // alert('ok');
   $('#about').remove();
   $('#gaeilge').remove();
-
+window.location = './geaga3.html';
 $('#button-menu').prepend(` 
 <button type="button" id="shout"class="btn btn-outline-light">
    <img src="https://i.imgur.com/vpNBbtp.png" width="60" />
