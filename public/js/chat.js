@@ -3,7 +3,8 @@ $(document).ready(function() {
   //   alert('hello chat.js(');
 
   $('.button-a').click(function() {
-    // alert('test a');
+    alert('test a');
+    $('.modal').fadeIn();
     $('.modal-content').html('');
     $('.modal-content').append(`<h1>Cad is ainm dhuit?</h1>`);
     $('.modal-content').append(`<input type="text" id="ainm"></input>`);
