@@ -1,146 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
-	  <!-- <script src="./scripts/typeWriter.js-master/typeWriter.js"></script> -->
-	  <head>
-		<title>Projects</title>
-		<!-- <link rel="stylesheet" href="./assets/css/location-styles.css" /> -->
-<!--   
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<link
-		   rel="stylesheet"
-		   href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-		   integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-		   crossorigin="anonymous"
-		   />
-   -->
-		<!-- <script src="./js/jquery.js"></script> -->
-		<!-- <link
-		   rel="stylesheet"
-		   href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-		   crossorigin="anonymous"
-		   /> -->
-		<link rel="shortcut icon" href="images/favicon.ico" />
-		<!-- <link
-		   href="https://fonts.googleapis.com/css?family=Irish+Grover&display=swap"
-		   rel="stylesheet"
-		   /> -->
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/loc-style.css" />
-		<link rel="stylesheet" type="text/css" href="css/tall-order.css" />
-		<link rel="stylesheet" type="text/css" href="css/history.css" />
-		<link rel="stylesheet" type="text/css" href="css/chat.css" />
-		<link href="css/rain.css" rel="stylesheet" type="text/css">
- 
-	</head>
-	<body>
-		
-		<div class="modal">
-			<div class="listen-to-tree">
-				<div class="skulls" id="skull1" ></div>
-				<div class="skulls" id="skull2" ></div>
-				<div class="skulls" id="skull3" ></div>
-				<div class="skulls" id="skull4" ></div>
-				<div class="skulls" id="skull5" ></div>
-				<div id="geaga-portrait" alt="tree portrait">
-					
-					<div id="suile" alt="glowing eyes"></div>
+    <!-- <script src="./scripts/typeWriter.js-master/typeWriter.js"></script> -->
+
+    <head>
+        <title>Geaga</title>
+        
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/loc-style.css" />
+        <link rel="stylesheet" type="text/css" href="css/tall-order.css" />
+        <link rel="stylesheet" type="text/css" href="css/history.css" />
+        <link rel="stylesheet" type="text/css" href="css/chat.css" />
+        <link href="css/rain.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+
+        <div class="modal">
+            <div class="listen-to-tree">
+                <div class="skulls" id="skull1"></div>
+                <div class="skulls" id="skull2"></div>
+                <div class="skulls" id="skull3"></div>
+                <div class="skulls" id="skull4"></div>
+                <div class="skulls" id="skull5"></div>
+                <div id="geaga-portrait" alt="tree portrait">
+                    <div id="suile" alt="glowing eyes"></div>
+                </div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <div id="geaga0" class="geaga-voices story" data-eng="Listening...">Ag éisteacht...</div>
+
+                <div id="geaga1" class="geaga-voices story" data-eng="...">
+                    <h1>Tom?</h1>
+                    <button>Is mé</button>
+                    <button>Ní mé</button>
+                </div>
+
+                <div id="geaga2" class="geaga-voices story" data-eng="Tree chitchat 1">Tom? </div>
+
+                <div id="geaga3" class="geaga-voices story" data-eng="Tree chitchat 2">
+                    O'Pádraigh'Óflynn"Hoppity"deBrún?
+                </div>
+
+                <div id="geaga4" class="geaga-voices story" data-eng="Tree chitchat 3">
+                    ó Dun_Geimhin i cúige óladh?
+                </div>
+                <div id="geaga5" class="geaga-voices story" data-eng="Tree chitchat 4">
+                    Chéad Míle Fáilte a Thaoiseach!
+                    <button></button>
+                </div>
+                <div id="geaga6" class="geaga-voices story" data-eng="Be silent bretheren! We have a visitor...">
+
+                </div>
+
+            </div>
+            <div class="modal-content">
+                <!-- <div id="modal-content_bg_img"> -->
+
+					<div class="modal-icon"></div>
+					<div id="story-container">
+                    <div class="story" data-eng="Welcome traveller, We have waited such a long long time...">...
+                    </div>
+
+                    <div class="story" data-eng="What shall you do?">
+                        Cé tusa?
+					</div>
 				</div>
-				<img src="" alt="">
-				<img src="" alt="">
-				<div id="geaga0" class="geaga-voices story"  data-eng="Listening...">Ag éisteacht...</div>
-				
-				<div id="geaga1" class="geaga-voices story" data-eng="...">
-					<h1>Tom?</h1>
-						<button>Is mé</button><<button>Ní mé</button>
-				</div>
-				
-				<div id="geaga2" class="geaga-voices story"  data-eng="Tree chitchat 1">Tom? </div>
-				
-				<div id="geaga3" class="geaga-voices story" data-eng="Tree chitchat 2">
-					O'Pádraigh'Óflynn"Hoppity"deBrún?
-				</div>
-				
-				<div id="geaga4" class="geaga-voices story" data-eng="Tree chitchat 3">
-					ó Dun_Geimhin i cúige óladh?
-				</div>
-				<div id="geaga5" class="geaga-voices story" data-eng="Tree chitchat 4">
-		  Chéad Míle Fáilte a Thaoiseach!
-		<button></button></div>
-		<div id="geaga6" class="geaga-voices story" data-eng="Be silent bretheren! We have a visitor...">
-			
-			
-		</div>
-		
-	</div>
-	<div class="modal-content" >
-			<div id="modal-content_bg_img">
-		
-		  <div class="modal-icon"></div>
-		  <div class="story" data-eng="Welcome traveller, We have waited such a long long time...">...
-		</div>
-		
-		<div class="story"data-eng="What shall you do?">
-			Cé tusa?
-		</div>
-		
 
- 
-</div>
+                <!-- </div> -->
 
+                <table class="answer-table">
+                    <!-- <thead><tr><th>btn</th><th>frg</tr></thead> -->
+                    <tbody>
+                        <tr>
+                            <td>
 
-<table class="answer-table">
-		<!-- <thead><tr><th>btn</th><th>frg</tr></thead> -->
-			<tbody>
-				<tr><td>
-					
-					<button class="button button-a">A:</button>
-					
-				</td>
-				<td>   <div class="story choice choice-a" data-eng="Approach boldly">"____ is ainm dom."
-				</div></td>
-			</tr>
-			<tr><td>
-				
-				<button class="button button-b">B:</button>
-				
-			</td>
-			<td>
-				
-				<div class="story choice choice-b" data-eng="Wait and listen">"Cé tú féin?" 
-				</td>
-			</tr>     
-			<tr><td>
-				<button class = "button button-c">C:</button>
-				
-				
-			</td>
-			<td>
-				<div class="story choice choice-c"  data-eng="Retreat">Síar                  
-					
-					
-				</td>
-			</tr>
-			
-</tbody></table>
-</div>
+                                <button class="button button-a">A:</button>
 
-</body>
-<!-- <script src= "./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>  -->
-<script src= "./js/jquery.js"></script> 
-<script src="js/chat.js"></script>
+                            </td>
+                            <td>
+                                <div class="story choice choice-a" data-eng="Approach boldly">"____ is ainm dom."
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
 
-<!-- <script src="./js/js-cookie-1.5.1/src/js.cookie.js"></script>
+                                <button class="button button-b">B:</button>
+
+                            </td>
+                            <td>
+
+                                <div class="story choice choice-b" data-eng="Wait and listen">"Cé tú féin?"
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="button button-c">C:</button>
+
+                            </td>
+                            <td>
+                                <div class="story choice choice-c" data-eng="Retreat">Síar
+
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                </div>
+
+    </body>
+    <!-- <script src= "./js/jquery-ui-1.12.1/jquery-ui.min.js"></script>  -->
+    <script src="./js/jquery.js"></script>
+    <script src="js/chat.js"></script>
+
+    <!-- <script src="./js/js-cookie-1.5.1/src/js.cookie.js"></script>
 	<script src="./js/tall-order.js"></script>
 	<script src="js/tota11y.min.js"></script>
 	<script src="js/translator.js"></script>
 	<script src="js/chat.js"></script>
 	<script src="js/meditate.js"></script> -->
-	</html>
+
+</html>
