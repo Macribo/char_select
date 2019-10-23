@@ -1,5 +1,12 @@
 /*credit - Rex van der Spuy, "Foundation Game Design with HTML Javascript" */
+var keypressCount = 0;
+
+
 $(document).ready(function() {
+  
+
+  
+  
   $('.cubes').fadeTo(2000, 0);
   // alert(Cookies.get('place'));
   var locationID = Cookies.get('locationID');
@@ -7,7 +14,7 @@ $(document).ready(function() {
     switch (lastPressed) {
       case 'down':
         gameObjects[sheepRow][sheepColumn] = BLOCKED;
-
+   
         sheepRow--;
 
         //Apply the sheep's new updated position to the array
@@ -17,7 +24,6 @@ $(document).ready(function() {
 
       case 'up':
         gameObjects[sheepRow][sheepColumn] = BLOCKED;
-
         sheepRow++;
         gameObjects[sheepRow][sheepColumn] = sheep;
 
@@ -153,6 +159,7 @@ $(document).ready(function() {
       render();
     }, 110);
     if (lastPressed === 'left') {
+      
       $('#hero').animate({ left: sheepColumn * 64 }, 100, 'linear');
     } else if (lastPressed === 'right') {
       $('#hero').animate({ left: sheepColumn * 64 }, 100, 'linear');
@@ -167,7 +174,10 @@ $(document).ready(function() {
   function keydownHandler(event) {
     if (keyboardActive) {
       switch (event.keyCode) {
-        case UP:
+        case UP: 
+        keypressCount ++;
+        console.log("keypress count "+ keypressCount)
+
           //Find out if the sheep's move will
           //be within the playing field
           if (sheepRow > 0) {
@@ -185,9 +195,12 @@ $(document).ready(function() {
             //Apply the sheep's new updated position to the array
             // gameObjects[sheepRow][sheepColumn] = sheep;
           }
+          
           break;
 
         case DOWN:
+        keypressCount ++;
+
           if (sheepRow < ROWS - 1) {
             lastPressed = 'down';
             gameObjects[sheepRow][sheepColumn] = ROWS - 0;
@@ -203,6 +216,8 @@ $(document).ready(function() {
             lastPressed = 'left';
             animatePlayer();
             // gameObjects[sheepRow][sheepColumn] = sheep;
+            keypressCount ++;
+
           }
           break;
 
@@ -214,9 +229,12 @@ $(document).ready(function() {
 
             lastPressed = 'right';
             animatePlayer();
+            keypressCount ++;
+
           }
           break;
       }
+      
     }
     //find out what kind of cell the sheep is on
     if (!mapMenuIsVisible) {
@@ -297,6 +315,12 @@ $(document).ready(function() {
   };
 
   function render() {
+
+if (keypressCount >= 3){
+  $('.ui').fadeIn();
+  console.log('hey')
+
+ }
     //Clear the stage of img cells
     //from the previous turn
 
@@ -2023,7 +2047,7 @@ jQuery('#example2').raindrops(
 
 
   
-  
+
 runIrishMode = ()=> {
   // alert('ok');
   $('#about').remove();
@@ -2088,16 +2112,8 @@ $('#gaeilge').on('click', runIrishMode);
 
 ///////////
 
-setTimeout(function(){
 
-  if($('#tall-order').is(":visible") ){
-  $('.ui').fadeIn();
-  console.log('hey')
-}
-},6000)
-
-
-
+ 
 
 
 }); //close document ready function

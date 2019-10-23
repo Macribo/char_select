@@ -1,0 +1,8 @@
+Usaidimíd 'cookies' chun ábhar agus fógraí a chuir in oirrúint don cuirteoir;
+chun analís a deanamh ar trácht ár suíomh;
+agus chun gnéithí eagsúla na meán sóisialta a soláthar.
+
+Is feidir tuilleadh a foghlaim faoí n-ar polasaithe 'cookies' anseo
+nó breathnaigh anseo chun foghlaim conas leasa a bhainnt as 'cookies' ar an suíomh seo.
+
+<button>Glach le Cookies</button>

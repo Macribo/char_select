@@ -2,6 +2,8 @@ var xhr = new XMLHttpRequest({ mozSystem: true });
 $(document).ready(function() {
   //   alert('hello chat.js(');
 
+
+
   $('.button-a').click(function() {
     alert('test a');
     $('.modal').fadeIn();
@@ -91,4 +93,7 @@ $(document).ready(function() {
     $('.modal').fadeOut('slow');
     $('#about').fadeIn('slow');
   });
+
+
+  
 });
