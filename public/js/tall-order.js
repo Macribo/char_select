@@ -2034,16 +2034,21 @@ if (keypressCount >= 3){
 /////////
 
 
-
+full = $(window).width();
+var theShout;
 playerShouts = () => {
   //console.log( "Handler for .keypress() called." );
 // alert('kungfu ');
+theShout = playerShouts.value;
+console.log(theShout);
 $('.playerShout').fadeOut();
 
 }
 jQuery('#example2').raindrops(
 	{color:'#27262a',
-	canvasHeight:200});
+  canvasHeight:200,
+	canvasWidth: full
+});
 
 
   
@@ -2052,7 +2057,7 @@ runIrishMode = ()=> {
   // alert('ok');
   $('#about').remove();
   $('#gaeilge').remove();
-window.location = './geaga3.html';
+// window.location = './geaga3.html';
 $('#button-menu').prepend(` 
 <button type="button" id="shout"class="btn btn-outline-light">
    <img src="https://i.imgur.com/vpNBbtp.png" width="60" />
@@ -2100,7 +2105,7 @@ setTimeout(function(){
   $('.playerShout').fadeIn();
   $('#example2').fadeTo("fast",1);
   $('.playerShout').focus();
-},1000);
+},300);
   $('.btn').fadeOut();
 
   

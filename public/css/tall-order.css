@@ -416,6 +416,7 @@ padding-bottom:200px;
 }
 .playerShout{
   display:none;
+  position:relative;
 /* border:2px solid orange; */
   height:200px;
   width:100%;
