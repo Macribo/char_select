@@ -16,6 +16,7 @@
 	font-family: 'Urchlo Romhanach';
 	z-index: 1000;
 	word-wrap: break-word;
+	top:0;
 }
 .btn{
 	font-size:1.2rem;
@@ -137,8 +138,8 @@
 }
 
 .special-btns-during-dm-mode{
-	color:rgb(73, 206, 33);
-	background-color:#716c80
+	color:rgb(60, 255, 0);
+	background-color:#858585;
 	
 	
 }
@@ -497,7 +498,7 @@
 	
 	.special-btns-during-dm-mode{
 		color:rgb(73, 206, 33);
-		background-color:#716c80
+		background-color:#858585;
 		
 		
 	}

@@ -19,26 +19,28 @@ let deirDM = [
     `"Do what is beyond your strength even should you fail sometimes."
     <br>Charles Stewart Parnell`,
     
-    `According to <a href="https://storyarchaeology.com/">this</a> the Irish are Brits.
+    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are Brits.
     And the Brits are Celts.`,
     
-    `<h3>The Island of Ireland comes from 150 vertical kilometers of Lorentia afloat on the asthenosphere;</h3>`,
+    `The Island of Ireland comes from 150 vertical kilometers of Lorentia afloat on the asthenosphere;`,
     `
     which crossed the world to collide with a seperation of the Avalonian landmass,
-    450 million years ago.</h3>`,
+    450 million years ago.`,
     
-    `<h3>Ages flew through we know not what until our oldest tales of <span style="color:green;">Banba.</span></h3>`,`Whomever they were;
+    `Ages flew through we know not what until our oldest tales of <span style="color:green;">Banba.</span>`,`Whomever they were;
     Beaker people, Milesians...`,
     
-    `'They who were' have gifted us a language on the wind;`,
+    `'They who were' have gifted us a language on the wind in which:`,
     
-    `in which`,
+    `Fadó fadó in Éireann, 
+    Roimh teacht an nua aois:`,
     
-    `The difference between an enegmatic arrowhead, and 'saiġead', is kinetic war broght to the eye of a king...`
+    // `The difference between an enegmatic arrowhead, and 'saiġead', is kinetic war broght to the eye of a king...`
 ]
 let say = 0;
 let sayBanba = 4;
-let saidEnough = 9;
+let sayThis = 1;
+let saidEnough = 8;
 let keyPressedInDMmode;
 
    if(dmAgCainnt){
@@ -68,21 +70,32 @@ setTimeout(function () {
 // alert(keyPressedInDMmode);
         }
         else if(keyPressedInDMmode.text='b'){
-            if(say === sayBanba)
-{
-            alert('b');
+            if(say === sayBanba){
+                alert('b');
 
-}            
+                
+            }  
+        }          
+        else if (keyPressedInDMmode.text='t'){
+            if(say === sayThis){
+                alert('t');
+
         }
-})
+}})
 
 render = () => {
 if(say === sayBanba){
     $('#b').addClass('special-btns-during-dm-mode');
 
 
-}else{
+}
+else if(say === sayThis){
+    $('#t').addClass('special-btns-during-dm-mode');
+
+}
+else{
     $('#b').removeClass('special-btns-during-dm-mode');
+    $('#t').removeClass('special-btns-during-dm-mode');
 
 }
 
