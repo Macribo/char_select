@@ -2044,11 +2044,11 @@ console.log(theShout);
 $('.playerShout').fadeOut();
 
 }
-jQuery('#example2').raindrops(
-	{color:'#27262a',
-  canvasHeight:200,
-	canvasWidth: full
-});
+// jQuery('#example2').raindrops(
+// 	{color:'#27262a',
+//   canvasHeight:200,
+// 	canvasWidth: full
+// });
 
 
   

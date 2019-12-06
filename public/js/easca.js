@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	new ClipboardJS('#copy');
+	// new ClipboardJS('#copy');
 
 	let keyPressed;
 
