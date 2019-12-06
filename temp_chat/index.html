@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Easca onscreen keyboard</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<h2 id="output"></h2>
+
+
+	<div id="keyboard-container" class="">
+		<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+			<div class="btn-group mr-2" role="group" aria-label="qp">
+				<button type="button" class="btn btn-secondary text-left btn-left">q</button>
+				<button type="button" class="btn btn-secondary btn-right text-left">p</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="wo">
+				<button type="button" class="btn btn-secondary text-left btn-left">w</button>
+				<button type="button" class="btn btn-secondary btn-right">o</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="ei">
+				<button type="button" class="btn btn-secondary text-left btn-left" >e</button>
+				<button type="button" class="btn btn-secondary btn-right">i</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="ru">
+				<button type="button" class="btn btn-secondary text-left btn-left">r</button>
+				<button type="button" class="btn btn-secondary btn-right">u</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="ty">
+				<button type="button" class="btn btn-secondary text-left btn-left">t</button>
+				<button type="button" class="btn btn-secondary btn-right">y</button>
+			</div>
+		</div>
+		<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+			<div class="btn-group mr-2" role="group" aria-label="a,">
+				<button type="button" class="btn btn-secondary btn-left">a</button>
+				<button type="button" class="btn btn-secondary btn-right" name=",">,</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="sl">
+				<button type="button" class="btn btn-secondary btn-left">s</button>
+				<button type="button" class="btn btn-secondary btn-right">l</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="dk">
+				<button type="button" class="btn btn-secondary btn-left">d</button>
+				<button type="button" class="btn btn-secondary btn-right">k</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="fj">
+				<button type="button" class="btn btn-secondary btn-left">f</button>
+				<button type="button" class="btn btn-secondary btn-right">j</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="gh">
+				<button type="button" class="btn btn-secondary btn-left">g</button>
+				<button type="button" class="btn btn-secondary btn-right">h</button>
+			</div>
+		</div>
+		<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+			<div class="btn-group mr-2"  role="group" aria-label="undo?">
+				<button type="button" id = "undo"class="btn btn-secondary btn-left">
+						<i class="fa fa-undo"></i>
+
+
+
+				</button>
+				<button type="button" class="btn btn-secondary btn-right">?</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="z.">
+				<button type="button" class="btn btn-secondary btn-left">z</button>
+				<button type="button" class="btn btn-secondary btn-right">.</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="xm">
+				<button type="button" class="btn btn-secondary btn-left">x</button>
+				<button type="button" class="btn btn-secondary btn-right">m</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="cn">
+				<button type="button" class="btn btn-secondary btn-left">c</button>
+				<button type="button" class="btn btn-secondary btn-right">n</button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="vb">
+				<button type="button" class="btn btn-secondary btn-left">v</button>
+				<button type="button" class="btn btn-secondary btn-right">b</button>
+			</div>
+		</div>
+			<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+				<div class="btn-group mr-2"  role="group" aria-label="del">
+
+					<button type="button" id= "return" class="btn btn-secondary">
+							<i class="fa fa-envelope"></i>
+					</button>
+					<button type="button" id= "return" class="btn btn-secondary">
+							<i class="fa fa-copy"></i>
+					</button>
+				</div>
+				
+					<button type="button" class="btn btn-secondary space">    </button>
+
+						
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<script src="./scripts/easca.js"></script>
+</body>
+
+</html>

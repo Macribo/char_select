@@ -157,9 +157,11 @@ body {
 
 #skip {
   opacity: 0;
+  background-color:rgba(103, 151, 75,0.8);
 
   pointer-events: none;
 }
+
 
 /* .amergin{
   position:fixed;
@@ -416,4 +418,8 @@ left:0%; */
   transform: translateY(-100%);
   -webkit-transition: all 0.3s 1s ease-out;
   transition: all 0.3s 1s ease-out;
+}
+
+#done{
+ opacity:0;
 }

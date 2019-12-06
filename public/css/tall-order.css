@@ -2,6 +2,11 @@
   font-family: aonchlo;
   src: url('../fonts/aonchlo.ttf');
 }
+#gaeilge{
+  font-family:'aonchlo';
+  font-weight:900;
+  padding:10px;
+}
 #stage {
   position: relative;
   /* border: 2px solid blue; */
@@ -214,11 +219,13 @@ p
 }
 
 #about {
+  padding:10px;
+
   /* top: 5%;
   right: 7%;
   position: fixed;
   display: none; */
-  animation: 32s color-change infinite alternate ease-in-out;
+  /* animation: 32s color-change infinite alternate ease-in-out; */
 }
 
 @keyframes color-change {
@@ -404,11 +411,12 @@ button {
   /* border:3px solid orange; */
 }
 .ui{
-  /* display:none; */
+  display:none;
 padding-bottom:200px;
 }
 .playerShout{
   display:none;
+  position:relative;
 /* border:2px solid orange; */
   height:200px;
   width:100%;

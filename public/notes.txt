@@ -1,0 +1,103 @@
+Cé tusa?
+
+rand sloinn mc sloinne ni leas ainm de rand contae?
+
+> is mé
+> inníon, s'ea.
+>ní mé. //déis re-roll
+
+
+firstNames = cé tusa input value;
+oNames = ['De','Ó\'','Mac','Fitz','','Ní','Nic','Uí'];
+nickNames = [' "Caol" ',' "Bródúl" ',' "Dhá Chois" ',' "Bleu-siúl" ',' "Croga" ',' "Mór" ',' "Uasal" ',' "Árd" ',];
+archaicNames = ['Ó rcuDhuibhne','Dun_Geimhin','Muine_Mor','Fear Mór thúscairt Maoigh Éo','Na ','BallyLickeyBeag','CillNaMallachBeag','Na_Cruacha',''];
+generationalNames = ['Pádraig','Bríd','Murphy','Mike','Sinéad','Órlaith','Pól','Prionsíos','Mic'];
+let randomNameGenerator =() =>{
+
+
+}
+ 
+ fade in geaga new skull 1.gif
+ 
+ Cé tu féin?,c 
+
+l 
+ <input ></>
+ `input1?`
+ cén sloinne atá ort?
+ rand sloine mac sloinne ní leas ainm de rand contae
+ //deis ag imreoir a hainm a re-rollál.
+ let randomNameGenerator = ()=>{
+     
+     
+     
+ }
+tá tù agam anois. 
+
+aithnínn na geagaí 'tom' ;  taoiseach baille rune. 
+
+lorg Táiniste
+
+chun leannúnt ar a
+ Fáilte ar ais a Thaoisaigh
+ beir bua a taoiseach
+ 
+ Lorg  Tániste 
+ 
+ Cén saighs tánaiste a roghnófá?
+rand ['Fear spioradálta ó sceilig rúnda','Sean Saighdúr le teathaí fíníochta','',''], go gáird sa spéir,x i measc na ndraoithe nua.
+ 
+ 
+ Cá lorgoidh tú Tánaiste?
+ 
+ Ó cuige  Mumhan.
+
+ nasc go index.html roghnaigh  
+ 
+
+
+agus cá háit i baile na rascail a lorgoidh tú é?
+í
+ag bon an plúis, go gáird sa spéir,x i measc na ndraoithe nua.
+
+
+maith thú a thaoiseach, agus go neirí an bóthar leat.
+/*
+
+
+
+
+ Fáilte ar ais a Thaoisaigh
+ bua an taoiseach !
+ 
+ ní bhaidh túinánn é sina deanamh go  dtí go mbeidh Táiniste ceapaithe agat.
+ ""
+ Cá lorgóidh tú Tániste
+ 
+ 
+ cá bhfhil muid? arsa an ridire
+ abair leis?
+ nasc go index.html roghnaigh  
+ 
+ : éi
+st 
+
+
+agus cá háit i baile na rascail a lorgoidh tú é?
+í
+
+
+maith thú a thaoiseach, agus go neirí an bóthar leat.
+/*
+
+
+
+
+// veue-eile.html <= caint resources with newcontent and
+
+*/
+ Bhígovara
+ 
+ is ainm dó.
+ 
+ 
