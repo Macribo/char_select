@@ -203,7 +203,7 @@ for (let i = 1; i < 33; i++) {
     slideAction = `
         <div id="blue-cape-menu" onload="test()">
         
-       <img id="blue-cape" src="../images/blue-cape.gif" >
+       <img id="blue-cape" src="./images/blue-cape.gif" >
     </div>`;
 
       break;
