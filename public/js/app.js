@@ -189,6 +189,8 @@ $('#done').on('click touch', function(){
   $('#keyboard-container').fadeIn();
   $('#output').fadeIn();
   $('.dm').fadeIn();
+  $('#skip').fadeOut();
+  $('#done').fadeOut();
   
 });
 

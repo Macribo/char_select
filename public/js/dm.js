@@ -20,10 +20,10 @@ let deirDM = [
     <br>Charles Stewart Parnell<br/><img id="context" src="./images/MiseContext1.png">`
     ,
     
-    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are "Brits",
-    <br>And the "Brits" are Celts.`,
+    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are likey "Brits" who absorbed Celtic culture;
+    <br>And the "Brits" are Celts who absorbed Anglo-Saxon Culture.`,
     
-    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:200px; margin-left:90px;">`,
+    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
     `
     Sailed o'er the asthenosphere and collide with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
     `,
@@ -40,7 +40,7 @@ let deirDM = [
 let say = 0;
 let sayBanba = 4;
 let sayThis = 1;
-let saidEnough = 8;
+let saidEnough = 7;
 let keyPressedInDMmode;
 let saySea= 3;
    if(dmAgCainnt){
@@ -111,8 +111,7 @@ else{
 
     if (say === saidEnough){
             $('.dm').fadeOut();
-        
-        
+            $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             $('.cubes').fadeTo(4000, 0);
 
