@@ -19,21 +19,20 @@ let deirDM = [
     `"Do what is beyond your strength even should you fail sometimes."
     <br>Charles Stewart Parnell`,
     
-    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are Brits.
-    And the Brits are Celts.`,
+    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are "Brits",
+    <br>And the "Brits" are Celts.`,
     
-    `The Island of Ireland comes from 150 vertical kilometers of Lorentia afloat on the asthenosphere;`,
+    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:200px; margin-left:300px;">`,
     `
-    which crossed the world to collide with a seperation of the Avalonian landmass,
-    450 million years ago.`,
+    Sailed o'er the asthenosphere and collide with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
+    `,
     
-    `Ages flew through we know not what until our oldest tales of <span style="color:green;">Banba.</span>`,`Whomever they were;
-    Beaker people, Milesians...`,
+    `Ages flew through we know not what until the era described in Gaelic mythology.</br> <span style="color:green;">Banba.</span>`,
     
-    `'They who were' have gifted us a language on the wind in which:`,
+    `'Beaker people, Milesians; </br>
+    'They who were' gifted us a language which is, </br> in English`,
     
-    `Fadó fadó in Éireann, 
-    Roimh teacht an nua aois:`,
+    `a still wind`,
     
     // `The difference between an enegmatic arrowhead, and 'saiġead', is kinetic war broght to the eye of a king...`
 ]

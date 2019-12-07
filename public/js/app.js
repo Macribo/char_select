@@ -186,7 +186,10 @@ goToSlide(slideNumber);
 }
 
 $('#done').on('click touch', function(){
-  alert();
+  $('#keyboard-container').fadeIn();
+  $('#output').fadeIn();
+  $('.dm').fadeIn();
+  
 });
 
 //load images into slides.
