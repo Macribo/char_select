@@ -53,47 +53,45 @@ let saySea= 3;
 }
     $('.btn').on('touchstart', function(){
 		keyPressedInDMmode = (this.innerHTML);
-        if(keyPressedInDMmode === '<img src="./images/arrow.png">')
-        {
+       
+        if(keyPressedInDMmode === '<img src="./images/arrow.png">'){
             say++;
-render();     
-setTimeout(function () {
-    $('#saighead-deas').removeClass();
-    $('#saighead-deas').addClass('btn');
-    $('#saighead-deas').addClass('special-btns-during-dm-mode');
-    $('#saighead-deas').css('color','rgb(73, 206, 33)');
-    // $('#saighead-deas').addClass('btn-outline-dark');
-
-},1000);
-
-// alert(keyPressedInDMmode);
-// alert(keyPressedInDMmode);
+            render();     
+            setTimeout(function () {
+                $('#saighead-deas').removeClass();
+                $('#saighead-deas').addClass('btn');
+                $('#saighead-deas').addClass('special-btns-during-dm-mode');
+                $('#saighead-deas').css('color','rgb(73, 206, 33)');
+                // $('#saighead-deas').addClass('btn-outline-dark');
+            },1000);
         }
-        else if(keyPressedInDMmode.text='b'){
+  
+         else if(keyPressedInDMmode.text='b'){
             if(say === sayBanba){
                 // alert('b');
+
+                $('#keyboard-container').fadeOut();
                 $('#keyboard-container').fadeOut();
                 $('#output').fadeOut();
                 $('.dm').fadeOut();
-                
 
-                
             }  
         }          
-        else if (keyPressedInDMmode.text='t'){
-            if(say === sayThis){
-                alert('t');
-
-        }
         
-}})
+        if (keyPressedInDMmode.text='t'){
+            if(say === sayThis){
+                window.open("https://storyarchaeology.com/");
+            }
+        
+}
+})
 
 render = () => {
     console.log(say)
 if(say === sayBanba){
     $('#b').addClass('special-btns-during-dm-mode');
 
-
+// alert('say banba')
 }
 else if(say === sayThis){
     $('#t').addClass('special-btns-during-dm-mode');
@@ -106,6 +104,7 @@ else{
     $('#b').removeClass('special-btns-during-dm-mode');
     $('#t').removeClass('special-btns-during-dm-mode');
     $('.dm').css('background-image','url(./images/2BG.png)');
+    
 }
 
     $('.dm-says').html(deirDM[say]);
