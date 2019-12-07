@@ -432,6 +432,8 @@ left:0%; */
 #avalonian{margin-top:0px;
 }
 #sea-waves{
-  margin-top:72px;
+  position:relative;
+  z-index:-1;
+  margin-top:-14%;
   /* border:2px solid red; */
 }

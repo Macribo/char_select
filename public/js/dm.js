@@ -17,12 +17,13 @@ $(document).ready(function () {
    let justListen = true;
 let deirDM = [
     `"Do what is beyond your strength even should you fail sometimes."
-    <br>Charles Stewart Parnell`,
+    <br>Charles Stewart Parnell<br/><img id="context" src="./images/MiseContext1.png">`
+    ,
     
     `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are "Brits",
     <br>And the "Brits" are Celts.`,
     
-    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:200px; margin-left:300px;">`,
+    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:200px; margin-left:90px;">`,
     `
     Sailed o'er the asthenosphere and collide with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
     `,
@@ -41,7 +42,7 @@ let sayBanba = 4;
 let sayThis = 1;
 let saidEnough = 8;
 let keyPressedInDMmode;
-
+let saySea= 3;
    if(dmAgCainnt){
 
     // $('#output').fadeOut();
@@ -84,9 +85,11 @@ setTimeout(function () {
                 alert('t');
 
         }
+        
 }})
 
 render = () => {
+    console.log(say)
 if(say === sayBanba){
     $('#b').addClass('special-btns-during-dm-mode');
 
@@ -96,10 +99,13 @@ else if(say === sayThis){
     $('#t').addClass('special-btns-during-dm-mode');
 
 }
+else if(say === saySea){
+    $('.dm').css('background-image','url(./images/bgWaves.png)');
+}
 else{
     $('#b').removeClass('special-btns-during-dm-mode');
     $('#t').removeClass('special-btns-during-dm-mode');
-
+    $('.dm').css('background-image','url(./images/2BG.png)');
 }
 
     $('.dm-says').html(deirDM[say]);
