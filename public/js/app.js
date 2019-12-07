@@ -180,10 +180,14 @@ if(slideNumber>=31){
     // $('#btn-menu').fadeTo('slow',1);
 
 }
+
  slideNumber++;
 goToSlide(slideNumber);
 }
 
+$('#done').on('click touch', function(){
+  alert();
+});
 
 //load images into slides.
 //Include 'special effects' with slideAction 
@@ -478,11 +482,11 @@ $(document).ready(function() {
           $('#holdSlide').fadeTo('slow', 1);
           
     },1000)
-setTimeout(function(){
+// setTimeout(function(){
 
-$('#btn-panel').animate({top:'80%'});
-},500);
-$('#btn-panel').animate({left:'35%'});
+// $('#btn-panel').animate({});
+// },2000);
+// $('#btn-panel').animate({left:'35%'});
 
    
    
@@ -492,7 +496,9 @@ $('#btn-panel').animate({left:'35%'});
         // $('#start').fadeOut();
         setTimeout(function(){
             $('#skip').fadeTo('slow', 0.4);
+            $('#done').fadeTo('slow', 0.4);
             $('#skip').css('pointer-events', 'auto');
+            $('#done').css('pointer-events', 'auto');
         },500);
     },1000)
 

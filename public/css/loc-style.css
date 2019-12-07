@@ -39,6 +39,7 @@ body {
   background-color: goldenrod;
 }
 #tall-order {
+  display:none;
   width: 1024px;
   /* padding-top: 128px; */
   margin: 0;
@@ -47,7 +48,7 @@ body {
   background-image: url('../images/2BG.png');
   background-size: contain;
   background-repeat: no-repeat;
-  display: flex;
+  /* display: flex; */
 
   /* padding: 10px; */
 }
