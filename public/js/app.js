@@ -176,7 +176,7 @@ skip.onclick= function(){
 if(slideNumber>=31){
     // $('#about').css({'display':'none'});
     // $('#start').fadeTo('slow',1);
-    // $('#skip').fadeTo('slow',0);
+    $('#skip').fadeTo('slow',0);
     // $('#btn-menu').fadeTo('slow',1);
 
 }
@@ -227,7 +227,7 @@ for (let i = 1; i < 33; i++) {
       slideAction = '';
   }
   let carouselBodyString = `<div class="carousel-item">
-                              <img class="d-block w-100" src="../images/About1/${picName}.png" alt="Second slide">
+                              <img class="d-block w-100" src="./images/About1/${picName}.png" alt="Second slide">
                               ${slideAction}
                             </div>`; //creatae dom elements
   console.log(i + 'slideAction:' + slideAction);
@@ -436,7 +436,7 @@ $(document).ready(function() {
         goToSlide(32);
         // $('#about').css({'display':'none'});
         // $('#start').fadeTo('slow',1);
-        // $('#skip').fadeTo('slow',0);
+        $('#skip').fadeTo('slow',0);
         // $('#btn-menu').fadeTo('slow',1);
 
 
@@ -491,8 +491,8 @@ $('#btn-panel').animate({left:'35%'});
         // $('#about').fadeOut();
         // $('#start').fadeOut();
         setTimeout(function(){
-            // $('#skip').fadeTo('slow', 0.4);
-            // $('#skip').css('pointer-events', 'auto');
+            $('#skip').fadeTo('slow', 0.4);
+            $('#skip').css('pointer-events', 'auto');
         },500);
     },1000)
 

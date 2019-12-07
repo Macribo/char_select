@@ -7,7 +7,6 @@ $(document).ready(function() {
 
   
   
-  // $('.cubes').fadeTo(2000, 0);
   // alert(Cookies.get('place'));
   var locationID = Cookies.get('locationID');
   blockPath = () => {
@@ -83,7 +82,7 @@ $(document).ready(function() {
   let currentBGImage = "./images/maps/localMaps/u184.png";
 
   //Map code
-  let currentPlayerGraphic = './images/imreoir.gif'
+  let currentPlayerGraphic = './images/folamh.png';//'./images/imreoir.gif'
   var BRL = 'brl';
   var SUAS = '^';
   var SIOS = 'v';

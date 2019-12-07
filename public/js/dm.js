@@ -53,7 +53,7 @@ let keyPressedInDMmode;
 }
     $('.btn').on('touchstart', function(){
 		keyPressedInDMmode = (this.innerHTML);
-        if(keyPressedInDMmode === '<i class="fa fa-long-arrow-right"></i>')
+        if(keyPressedInDMmode === '<img src="./images/arrow.png">')
         {
             say++;
 render();     
@@ -71,7 +71,11 @@ setTimeout(function () {
         }
         else if(keyPressedInDMmode.text='b'){
             if(say === sayBanba){
-                alert('b');
+                // alert('b');
+                $('#keyboard-container').fadeOut();
+                $('#output').fadeOut();
+                $('.dm').fadeOut();
+                
 
                 
             }  
@@ -102,13 +106,12 @@ else{
     $('.dm-says').html(deirDM[say]);
 
     if (say === saidEnough){
-        setTimeout(function(){
-            $('.dm-says').fadeOut();
-        },4000);
-        $('.btn').removeClass('most-btns-during-dm-mode')
-        setTimeout(function(){
+            $('.dm').fadeOut();
+        
+        
             $('#keyboard-container').fadeOut()
-        },2000);
+            $('.cubes').fadeTo(4000, 0);
+
 
 
     }
