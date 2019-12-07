@@ -155,13 +155,6 @@ body {
   z-index: 8000;
 }
 
-#skip {
-  opacity: 0;
-  background-color:rgba(103, 151, 75,0.8);
-
-  pointer-events: none;
-}
-
 
 /* .amergin{
   position:fixed;
@@ -423,6 +416,16 @@ left:0%; */
 
 #done{
  opacity:0;
+ margin-left:15% !important;
  pointer-events: none;
 
+}
+
+
+#skip {
+  opacity: 0;
+  background-color:rgba(103, 151, 75,0.8);
+  margin-right:15% !important;
+
+  pointer-events: none;
 }
