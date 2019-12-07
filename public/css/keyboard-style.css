@@ -147,7 +147,7 @@
 
 
 .dm{
-	border:2px solid green;
+	/* border:2px solid green; */
 
 	margin:0;
 	margin-left:3px;
@@ -520,7 +520,7 @@ height:132px;}
 	
 	
 	.dm{
-		border:2px solid orange;
+		/* border:2px solid orange; */
 		margin:0;
 		left:0;
 		/* display:grid; */
