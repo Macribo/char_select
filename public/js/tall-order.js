@@ -314,9 +314,9 @@ $(document).ready(function() {
   };
 
   function render() {
-if($("#tall-order").is(":Visible")){
+if($(".cubes").is(":hidden")){
   currentPlayerGraphic = './images/imreoir.gif';
-
+// alert();
 } 
 if (keypressCount >= 3){
   $('.ui').fadeIn();

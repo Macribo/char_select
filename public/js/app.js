@@ -186,11 +186,13 @@ goToSlide(slideNumber);
 }
 
 $('#done').on('click touch', function(){
+  $('#hold-frame').fadeOut();
   $('#keyboard-container').fadeIn();
   $('#output').fadeIn();
   $('.dm').fadeIn();
   $('#skip').fadeOut();
   $('#done').fadeOut();
+
   
 });
 

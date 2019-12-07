@@ -113,9 +113,11 @@ else{
 
     if (say === saidEnough){
             $('.dm').fadeOut();
+            $('#hold-frame').fadeOut();
             $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             $('.cubes').fadeTo(4000, 0);
+
 
 
 
