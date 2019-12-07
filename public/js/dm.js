@@ -30,8 +30,8 @@ let deirDM = [
     
     `Ages flew through we know not what until the era described in Gaelic mythology.</br> <span style="color:green;">Banba.</span>`,
     
-    `'Beaker people, Milesians; </br>
-    'They who were' gifted us a language which is, </br> in English`,
+    `'Milesians, Beaker people, Brittons or Formorians; </br>
+    They who once called themselves 'Sinn' left us 'Gaeilge' which is, </br> in English`,
     
     `a still wind`,
     
@@ -78,10 +78,12 @@ let saySea= 3;
             }  
         }          
         
-        if (keyPressedInDMmode.text='t'){
-            if(say === sayThis){
-                window.open("https://storyarchaeology.com/");
-            }
+        if(say === sayThis){
+        $('#t').on('click', function(){
+                window.location.href = "https://storyarchaeology.com/";
+
+        }
+        )
         
 }
 })

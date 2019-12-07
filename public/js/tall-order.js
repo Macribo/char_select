@@ -314,7 +314,10 @@ $(document).ready(function() {
   };
 
   function render() {
+if($("#tall-order").is(":Visible")){
+  currentPlayerGraphic = './images/imreoir.gif';
 
+} 
 if (keypressCount >= 3){
   $('.ui').fadeIn();
   console.log('hey')
