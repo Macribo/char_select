@@ -16,24 +16,25 @@ $(document).ready(function () {
    let dmAgCainnt = true;
    let justListen = true;
 let deirDM = [
-    `"Do what is beyond your strength even should you fail sometimes."
-    <br>Charles Stewart Parnell<br/><img id="context" src="./images/MiseContext1.png">`
+    `
+    "Do what is beyond your strength even should you fail sometimes."
+    <br/><h4>Charles Stewart Parnell</h4><br/><img id="context" src="./images/MiseContext1.png">`
     ,
     
-    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are likey "Brits" who absorbed Celtic culture;
+    `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are "Brits" who absorbed Celtic culture;
     <br>And the "Brits" are Celts who absorbed Anglo-Saxon Culture.`,
     
     `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
     `
-    Sailed o'er the asthenosphere and collide with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
+    Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
     `,
     
-    `Ages flew through we know not what until the era described in Gaelic mythology.</br> <span style="color:green;">Banba.</span>`,
+    `Ages flew through we know not what until the era described in Gaelic mythology.<br/><div id="waves-ireland"><img src="./images/tonnta1.gif" style="height:132px;"><img src="./images/tonnta3.gif" style="height:132px;"><img src="./images/e.png" style="height:132px;"><div>`,
     
-    `'Milesians, Beaker people, Brittons or Formorians; </br>
-    They who once called themselves 'Sinn' left us 'Gaeilge' which is, </br> in English`,
+    `'Many branches of Gaelic civilization were severed.
+    `,
     
-    `a still wind`,
+    `Level 0: Síolta`,
     
     // `The difference between an enegmatic arrowhead, and 'saiġead', is kinetic war broght to the eye of a king...`
 ]
@@ -43,6 +44,7 @@ let sayThis = 1;
 let saidEnough = 7;
 let keyPressedInDMmode;
 let saySea= 3;
+let sayParnell = 0;
    if(dmAgCainnt){
 
     // $('#output').fadeOut();
@@ -76,7 +78,8 @@ let saySea= 3;
                 $('.dm').fadeOut();
 
             }  
-        }          
+            
+        }  
         
         if(say === sayThis){
         $('#t').on('click', function(){
@@ -90,7 +93,16 @@ let saySea= 3;
 
 render = () => {
     console.log(say)
-if(say === sayBanba){
+    if(say === sayParnell){
+        $('.dm').css('background-image','url(./images/backgrounds/mainBG-light.png)');
+    $('.dm-says').css('color','black');
+        
+        // alert();
+        // render();
+
+
+    }
+else if(say === sayBanba){
     $('#b').addClass('special-btns-during-dm-mode');
 
 // alert('say banba')
@@ -106,6 +118,7 @@ else{
     $('#b').removeClass('special-btns-during-dm-mode');
     $('#t').removeClass('special-btns-during-dm-mode');
     $('.dm').css('background-image','url(./images/2BG.png)');
+    $('.dm-says').css('color','gainsboro');
     
 }
 
