@@ -41,7 +41,7 @@ let deirDM = [
 let say = 0;
 let sayBanba = 4;
 let sayThis = 1;
-let saidEnough = 7;
+let saidEnough = 5;
 let keyPressedInDMmode;
 let saySea= 3;
 let sayParnell = 0;
@@ -129,7 +129,7 @@ if (say != sayBanba && say != sayThis){
             $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             $('.cubes').fadeTo(4000, 0);
-
+            window.location.href = "https://macribo.github.io/ritt_web/";
 
 
 
