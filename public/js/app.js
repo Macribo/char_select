@@ -459,8 +459,6 @@ $(document).ready(function() {
     }
   };
 
-  // var darkpic = './assets/images/backgrounds/bg_Dark.png';
-
   goToSlide({
     pause: false,
     interval: 0

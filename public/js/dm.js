@@ -18,7 +18,7 @@ $(document).ready(function () {
 let deirDM = [
     `
     "Do what is beyond your strength even should you fail sometimes."
-    <br/><h4>Charles Stewart Parnell</h4><br/><img id="context" src="./images/MiseContext1.png">`
+    <br/><h4>Charles Stewart Parnell</h4><br/>`
     ,
     
     `According to <a href="https://storyarchaeology.com/" style="color:green;">this</a> the Irish are "Brits" who absorbed Celtic culture;
@@ -29,12 +29,12 @@ let deirDM = [
     Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
     `,
     
-    `Ages flew through we know not what until the era described in Gaelic mythology.<br/><div id="waves-ireland"><img src="./images/tonnta1.gif" style="height:132px;"><img src="./images/tonnta3.gif" style="height:132px;"><img src="./images/e.png" style="height:132px;"><div>`,
+    `Ages flew through we know not what until the era described in Gaelic mythology.<br/><img src="./images/e.png" style="height:132px;"><div>`,
     
-    `'Many branches of Gaelic civilization were severed.
+    `...
     `,
     
-    `Level 0: Síolta`,
+    `...`,
     
     // `The difference between an enegmatic arrowhead, and 'saiġead', is kinetic war broght to the eye of a king...`
 ]
@@ -94,24 +94,23 @@ let sayParnell = 0;
 render = () => {
     console.log(say)
     if(say === sayParnell){
-        $('.dm').css('background-image','url(./images/backgrounds/mainBG-light.png)');
-    $('.dm-says').css('color','black');
+        $('.dm').css('background-image','url(./images/2BG.png)');
         
         // alert();
         // render();
 
 
     }
-else if(say === sayBanba){
+ if(say === sayBanba){
     $('#b').addClass('special-btns-during-dm-mode');
 
 // alert('say banba')
 }
-else if(say === sayThis){
+ if(say === sayThis){
     $('#t').addClass('special-btns-during-dm-mode');
 
 }
-else if(say === saySea){
+ if(say === saySea){
     $('.dm').css('background-image','url(./images/bgWaves.png)');
 }
 else{
