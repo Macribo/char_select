@@ -113,7 +113,7 @@ render = () => {
  if(say === saySea){
     $('.dm').css('background-image','url(./images/bgWaves.png)');
 }
-else{
+if (say != sayBanba && say != sayThis){
     $('#b').removeClass('special-btns-during-dm-mode');
     $('#t').removeClass('special-btns-during-dm-mode');
     $('.dm').css('background-image','url(./images/2BG.png)');
