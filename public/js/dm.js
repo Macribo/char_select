@@ -26,10 +26,10 @@ let deirDM = [
     
     `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
     `
-    Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta3.gif" style="height:128px; width:128px"></div>
+    Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"></div>
     `,
     
-    `Ages flew through we know not what until the era described in Gaelic mythology.<br/><img src="./images/e.png" style="height:132px;"><div>`,
+    `Ages flew through we know not what until the eras described in Gaelic mythology.`,
     
     `...
     `,
@@ -110,6 +110,8 @@ render = () => {
     }
     if(say === sayBanba){
         $('#b').addClass('special-btns-during-dm-mode');
+        $('.dm').css('background-image','url(./images/3BG.png');
+        // $('.dm-says').css('color','black');
 
     // alert('say banba')
     }
