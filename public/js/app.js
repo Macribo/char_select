@@ -51,10 +51,10 @@ verse2 = () => {
     $('#demo').text(englishProse[3]);
     // return msg;
     // typeWriter("#demo", "true", 40);
-    break;
+    // break;
 
 };
-
+//app.js
 verse3 = () => {
 
  //show 3 lines of the poem sequentially on one slide
@@ -218,20 +218,6 @@ for (let i = 1; i < 33; i++) {
     case 10:
       $('#demo').text(' ');
 
-      //show 3 lines of the poem together on one slide
-
-      break;
-
-    case 11:
-      break;
-    case 12:
-      break;
-    case 13:
-      break;
-
-    case 14:
-      break;
-    case 15:
    
     default:
       // alert('default');

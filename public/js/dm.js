@@ -21,15 +21,15 @@ let deirDM = [
     <br/><h3>Charles Stewart Parnell</h3><br/>`
     ,
     
-    `According to <a href="https://storyarchaeology.com/" style="color:orangered;">this</a> <br/>the "Irish" are "Brits" who absorbed Celtic culture;
-    <br>And the "Brits" are Celts who absorbed Anglo-Saxon Culture.`,
+    // `According to <a href="https://storyarchaeology.com/" style="color:orangered;">this</a> <br/>the "Irish" are "Brits" who absorbed Celtic culture;
+    // <br>And the "Brits" are Celts who absorbed Anglo-Saxon Culture.`,
     
     `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
     `
-    Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"></div>
+    Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<br/><div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta2.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"></div>
     `,
     
-    `Ages flew through we know not what until the eras described in Gaelic mythology.`,
+    `Unknown Ages later emerged the legendary cycle of Gaelic mythology.`,
     
     `...
     `,
@@ -39,11 +39,11 @@ let deirDM = [
     // `The difference between an enegmatic arrowhead, and 'saiġead', is kinetic war broght to the eye of a king...`
 ]
 let say = 0;
-let sayBanba = 4;
-let sayThis = 1;
-let saidEnough = 5;
+let sayBanba = 3;
+let sayThis = 100;
+let saidEnough = 4;
 let keyPressedInDMmode;
-let saySea= 3;
+let saySea= 2;
 let sayParnell = 0;
    if(dmAgCainnt){
 
