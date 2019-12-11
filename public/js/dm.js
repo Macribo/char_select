@@ -21,7 +21,7 @@ let deirDM = [
     <br/><h3>Charles Stewart Parnell</h3><br/>`
     ,
     
-    `According to <a href="https://storyarchaeology.com/" style="color:orangered;">this</a> the "Irish" are "Brits" who absorbed Celtic culture;
+    `According to <a href="https://storyarchaeology.com/" style="color:orangered;">this</a> <br/>the "Irish" are "Brits" who absorbed Celtic culture;
     <br>And the "Brits" are Celts who absorbed Anglo-Saxon Culture.`,
     
     `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
@@ -96,7 +96,7 @@ render = () => {
     console.log(say)
     if(say === sayParnell){
         $('.dm').css('background-image','url(./images/0.png)');
-        $('.dm-says').css('margin-top','-62%');
+        $('.dm-says').css('margin-top','-60%');
         $('.dm-says').css('color','gray');
 
         $('.dm-says').fadeIn(3000);
