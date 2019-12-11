@@ -125,7 +125,7 @@ render = () => {
             $('.dm-says').css('margin-top', '-9%');
                   
         }
-else if(window.innerWidth > window.innerHeight){
+        else if(window.innerWidth > window.innerHeight){
             // alert('landscape')
             $('.dm-says').css('margin-top', '-7%');
             console.log('should be -7%')
@@ -133,6 +133,13 @@ else if(window.innerWidth > window.innerHeight){
     }
     if(say === saySea){
         $('.dm').css('background-image','url(./images/bgWaves.png)');
+   
+        if(window.innerHeight > window.innerWidth){
+            // alert('portrait')
+            $('.sea-waves').css('margin-top', '-2%');
+                  
+        }
+
     }
     if (say != sayBanba && say  != sayParnell && say  != saySea && say  != sayThis){
         $('#b').removeClass('special-btns-during-dm-mode');
