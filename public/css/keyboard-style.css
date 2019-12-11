@@ -568,3 +568,30 @@ height:132px;}
 #context{
 	height:570px;}
 }
+
+
+
+@media only screen and (orientation:portrait) {
+  
+.dm-says{
+	display:none;
+	margin:10px;
+font-size:4em;
+	/* display:grid; */
+	width:84%;
+	color:gainsboro;
+margin-top:-32%;
+
+}}
+
+
+
+
+@media only screen and (orientation:landscape) {
+  
+	.dm-says{
+		margin:10px;
+		/* display:grid; */
+		width:84%;
+		color:gainsboro;
+	}}
