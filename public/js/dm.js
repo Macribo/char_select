@@ -92,11 +92,17 @@ let sayParnell = 0;
 }
 })
 
+
+// Listen for orientation changes
+window.addEventListener("orientationchange", function() {
+	// Announce the new orientation number
+    console.log(screen.orientation);
+    render();
+}, false);
 render = () => {
     console.log(say)
     if(say === sayParnell){
         $('.dm').css('background-image','url(./images/0.png)');
-        $('.dm-says').css('margin-top','-60%');
         $('.dm-says').css('color','gray');
 
         $('.dm-says').fadeIn(3000);
@@ -108,9 +114,21 @@ render = () => {
     // alert('say banba')
     }
     if(say === sayThis){
-        $('.dm-says').css('margin-top','-60%');
         $('#t').addClass('special-btns-during-dm-mode');
-
+        $('.dm').css('background-image','url(./images/2BG.png');
+        $('.dm-says').css('color', 'gainsboro');
+        // check mobile orientation
+    
+        if(window.innerHeight > window.innerWidth){
+            // alert('portrait')
+            $('.dm-says').css('margin-top', '-9%');
+                  
+        }
+else if(window.innerWidth > window.innerHeight){
+            // alert('landscape')
+            $('.dm-says').css('margin-top', '-7%');
+            console.log('should be -7%')
+        }
     }
     if(say === saySea){
         $('.dm').css('background-image','url(./images/bgWaves.png)');
