@@ -580,7 +580,7 @@ font-size:4em;
 	/* display:grid; */
 	width:84%;
 	color:gainsboro;
-margin-top:-32%;
+margin-top:-60%;
 
 }}
 
@@ -594,4 +594,6 @@ margin-top:-32%;
 		/* display:grid; */
 		width:84%;
 		color:gainsboro;
+		margin-top:-17% !important;
+
 	}}

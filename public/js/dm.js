@@ -108,13 +108,14 @@ render = () => {
     // alert('say banba')
     }
     if(say === sayThis){
+        $('.dm-says').css('margin-top','-60%');
         $('#t').addClass('special-btns-during-dm-mode');
 
     }
     if(say === saySea){
         $('.dm').css('background-image','url(./images/bgWaves.png)');
     }
-    if (say != sayBanba && say  != sayParnell && say  != saySea){
+    if (say != sayBanba && say  != sayParnell && say  != saySea && say  != sayThis){
         $('#b').removeClass('special-btns-during-dm-mode');
         $('#t').removeClass('special-btns-during-dm-mode');
         $('.dm').css('background-image','url(./images/2BG.png)');
