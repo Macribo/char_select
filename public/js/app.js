@@ -1,4 +1,5 @@
 var slideNumber = 0;
+let lastSlide = 27;
 // import TypeWriting from 'typewriting';
 let englishProse = [
   `I am the wind which breaths upon the sea,`,
@@ -171,9 +172,8 @@ var start = document.getElementById('start');
 //     './Untitled/index.html'
 //   );
 // };
-
 skip.onclick= function(){
-if(slideNumber>=31){
+if(slideNumber>=lastSLide){
     // $('#about').css({'display':'none'});
     // $('#start').fadeTo('slow',1);
     $('#skip').fadeTo('slow',0);
@@ -198,7 +198,7 @@ $('#done').on('click touch', function(){
 
 //load images into slides.
 //Include 'special effects' with slideAction 
-for (let i = 1; i < 33; i++) {
+for (let i = 1; i < lastSlide; i++) {
   let picName = '';
   i < 10 ? (picName = '0' + i) : (picName = i);
   let slideAction = '';

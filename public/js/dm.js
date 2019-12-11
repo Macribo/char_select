@@ -31,8 +31,7 @@ let deirDM = [
     
     `Unknown Ages later emerged the legendary cycle of Gaelic mythology.`,
     
-    `...
-    `,
+    `<img src="./images/g.png">    `,
     
     `...`,
     
