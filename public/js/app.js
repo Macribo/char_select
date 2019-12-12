@@ -1,5 +1,5 @@
 var slideNumber = 0;
-let lastSlide = 27;
+let lastSlide = 29;
 // import TypeWriting from 'typewriting';
 let englishProse = [
   `I am the wind which breaths upon the sea,`,
