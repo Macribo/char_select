@@ -159,8 +159,8 @@ render = () => {
             $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             $('.cubes').fadeTo(4000, 0);
-            window.location.href = "https://macribo.github.io/ritt_web/";
-
+            window.location.href = "https://macribo.github.io/ainmbox/";
+            
 
 
     }
