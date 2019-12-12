@@ -173,7 +173,7 @@ var start = document.getElementById('start');
 //   );
 // };
 skip.onclick= function(){
-if(slideNumber>=lastSLide){
+if(slideNumber>=lastSlide){
     // $('#about').css({'display':'none'});
     // $('#start').fadeTo('slow',1);
     $('#skip').fadeTo('slow',0);
