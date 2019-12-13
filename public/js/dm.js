@@ -29,7 +29,7 @@ let deirDM = [
     Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<br/><div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta2.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"></div>
     `,
     
-    `Unknown Ages later emerged the legendary cycle of Gaelic mythology.`,
+    `An eon passed before the "legendary cycle" of Gaelic mythology began.`,
     
     `<img src="./images/g.png">    `,
     
