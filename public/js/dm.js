@@ -53,7 +53,7 @@ let sayParnell = 0;
     
 }
     $('.btn').on('click', function(){
-            $(document).fullScreen(true);
+            // $(document).fullScreen(true);
 		keyPressedInDMmode = (this.innerHTML);
        
         if(keyPressedInDMmode === '<img src="./images/arrow.png">'){
