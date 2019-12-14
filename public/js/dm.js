@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+let fullscreen = false;
     /*update keyboard appearance
     according to dm is speaking or not.
     
@@ -52,11 +52,13 @@ let sayParnell = 0;
     $('#saighead-deas').addClass('special-btns-during-dm-mode');
     
 }
-    $('.btn').on('touchstart', function(){
+    $('.btn').on('click', function(){
+            $(document).fullScreen(true);
 		keyPressedInDMmode = (this.innerHTML);
        
         if(keyPressedInDMmode === '<img src="./images/arrow.png">'){
             say++;
+            
             render();     
             setTimeout(function () {
                 $('#saighead-deas').removeClass();
