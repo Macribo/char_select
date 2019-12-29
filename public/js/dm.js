@@ -161,7 +161,7 @@ render = () => {
             $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             $('.cubes').fadeTo(4000, 0);
-            window.location.href = "https://macribo.github.io/ainmbox/";
+            window.location.href = "https://macribo.github.io/tall-order/public/index.html";
             
 
 
