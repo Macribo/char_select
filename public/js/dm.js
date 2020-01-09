@@ -129,12 +129,10 @@ render = () => {
     }
     if(say === sayBanba){
         $('#b').addClass('special-btns-during-dm-mode');
+        $('#b').text('b');
         $('.dm').css('background-image','url(./images/3BG.png');
-        $('.dm').css('background-image','url(./images/3BG.png');
-        $('.dm').css('background-image','url(./images/3BG.png');
-        $('.dm').css('background-image','url(./images/3BG.png');
-        $('.dm').css('background-image','url(./images/3BG.png');
-        // $('.dm-says').css('color','black');
+        $('.dm-says').css('color','white');
+        // $('.dm-says').animate({color:'white'},500);
 
     // alert('say banba')
     }
