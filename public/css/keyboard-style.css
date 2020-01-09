@@ -580,13 +580,18 @@ height:132px;}
 .dm-says{
 	display:none;
 	margin:10px;
-font-size:4em;
+	font-size:4em;
 	/* display:grid; */
 	width:84%;
 	color:gainsboro;
-margin-top:-60%;
+	margin-top:-60%;
 
-}}
+}
+#shout{
+	background-color:gray;
+}
+
+}
 
 
 
@@ -599,4 +604,6 @@ margin-top:-60%;
 		color:gainsboro;
 		margin-top:-17%;
 
-	}}
+	}
+
+}
