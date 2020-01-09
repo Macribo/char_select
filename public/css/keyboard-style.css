@@ -439,7 +439,7 @@ height:132px;}
 		height:20%;
 	}
 	
-	
+
 	.space{
 		/* border:2px solid green; */
 		width: 70% !important;
@@ -523,18 +523,18 @@ height:132px;}
 	.dm{
 		/* border:2px solid orange; */
 		margin:0;
-		left:0;
+		left:6%;
 		/* display:grid; */
 		/* align-content:center; */
 		/* text-align: center; */
 		/* border:3px solid blue; */
 		/* position: fixed; */
-		top:0%;
+		top:5%;
 		background-image:url('../images/2BG.png');
 		/* background-size:cover; */
-		height:67%;
-		width: 100%;
-		background-size:100% 84%;
+		height:52%;
+		width: 89%;
+		background-size:100% 100%;
 		background-repeat: no-repeat;
 		z-index:900 !important;
 
@@ -562,7 +562,7 @@ height:132px;}
 	font-family: 'Urchlo Romhanach';
 	z-index: 1000;
 	word-wrap: break-word;
-	top:-15%;
+	top:41%;
 	left:7%;
 }
 #context{

@@ -24,7 +24,7 @@ let deirDM = [
     // `According to <a href="https://storyarchaeology.com/" style="color:orangered;">this</a> <br/>the "Irish" are "Brits" who absorbed Celtic culture;
     // <br>And the "Brits" are Celts who absorbed Anglo-Saxon Culture.`,
     
-    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian "src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
+    `450 million years ago:<br/>The Island of Ireland was formed when 150 vertical kilometers of "Lorentia"; <br/><img id="avalonian" src="./images/backgrounds/fainne_1.png" style="height:132px; margin-left:90px;">`,
     `
     Sailed o'er the asthenosphere and collided with a fragment of the Avalonian landmass.<br/><div id="sea-waves"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta3.gif"style="height:128px; width:128px"><img src="./images/tonnta1.gif"style="height:128px; width:128px"><img src="./images/tonnta2.gif" style="height:128px; width:128px"><img src="./images/tonnta1.gif" style="height:128px; width:128px"></div>
     `,
@@ -109,8 +109,30 @@ render = () => {
         $('.dm-says').fadeIn(3000);
         // alert(say);
     }
+    if(say===1){ //450 million years ago
+        // alert("hi there")
+    
+        $('#output').css('top','-30%');
+        $('.dm-says').css('padding-top','7%');
+    
+
+    
+    }
+    if(say===2){ //sailed oer the asthenosphereS
+        // alert("hi there")
+    
+        $('#output').css('top','-30%');
+        $('.dm-says').css('margin-top','14%');
+        $('.dm-says').css('padding-top','135%');
+
+    
+    }
     if(say === sayBanba){
         $('#b').addClass('special-btns-during-dm-mode');
+        $('.dm').css('background-image','url(./images/3BG.png');
+        $('.dm').css('background-image','url(./images/3BG.png');
+        $('.dm').css('background-image','url(./images/3BG.png');
+        $('.dm').css('background-image','url(./images/3BG.png');
         $('.dm').css('background-image','url(./images/3BG.png');
         // $('.dm-says').css('color','black');
 
@@ -118,7 +140,7 @@ render = () => {
     }
     if(say === sayThis){
         $('#t').addClass('special-btns-during-dm-mode');
-        $('.dm').css('background-image','url(./images/2BG.png');
+        // $('.dm').css('background-image','url(./images/2BG.png');
         $('.dm-says').css('color', 'gainsboro');
         // check mobile orientation
     
@@ -143,10 +165,10 @@ render = () => {
         }
 
     }
-    if (say != sayBanba && say  != sayParnell && say  != saySea && say  != sayThis){
+    if (say != sayBanba && say  != sayParnell && say  != saySea && say  != sayThis && say  != 1){
         $('#b').removeClass('special-btns-during-dm-mode');
         $('#t').removeClass('special-btns-during-dm-mode');
-        $('.dm').css('background-image','url(./images/2BG.png)');
+        // $('.dm').css('background-image','url(./images/2BG.png)');
         $('.dm-says').css('color','gainsboro');
         $('.dm-says').css('margin-top','0%');
         // $('.dm-says').css('color','gray');
