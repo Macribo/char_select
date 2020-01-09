@@ -39,8 +39,9 @@ body {
   background-color: goldenrod;
 }
 #tall-order {
-  display:none;
-  width: 1024px;
+  /* display:none; */
+  width: 100%;
+  height: 50%;
   /* padding-top: 128px; */
   margin: 0;
   height: 384px;
@@ -116,3 +117,28 @@ body {
 #back-to-main-menu:hover {
   color: gainsboro;
 }
+@media screen and (orientation:portrait){
+
+  #tall-order {
+    /* z-index: 6000; */
+    /* display:none; */
+    display:block;
+    position: fixed;
+    height: 2699px;
+    width:1003px;
+    top:2%;
+    left:-1%;
+    /* padding-top: 128px; */
+    margin: 0;
+    /* height: 384px; */
+    /* border: 2px solid red; */
+    background-image: url('../images/2BG-tall.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: flex; */
+  
+    /* padding: 10px; */
+  }
+
+}
+
