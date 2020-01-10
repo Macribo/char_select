@@ -105,6 +105,8 @@ render = () => {
     if(say === sayParnell){
         $('.dm').css('background-image','url(./images/0.png)');
         $('.dm-says').css('color','gray');
+        $('.dm-says').css('padding-top','2%');
+
 
         $('.dm-says').fadeIn(3000);
         // alert(say);
@@ -122,7 +124,7 @@ render = () => {
         // alert("hi there")
     
         $('#output').css('top','-30%');
-        $('.dm-says').css('margin-top','14%');
+        $('.dm-says').css('margin-top','16%');
         $('.dm-says').css('padding-top','135%');
 
     
@@ -181,7 +183,7 @@ render = () => {
             $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             $('.cubes').fadeTo(4000, 0);
-            window.location.href = "https://macribo.github.io/tall-order/public/index.html";
+            window.location.href = "https://macribo.github.io/ainmbox/";
             
 
 
