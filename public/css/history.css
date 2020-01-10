@@ -409,13 +409,14 @@ left:0%; */
 }
 
 
-#skip {
+#skip { /*badly named*/
   opacity: 0;
   background-color:rgba(103, 151, 75,0.8);
   margin-right:15% !important;
 
   pointer-events: none;
 }
+
 #avalonian{margin-top:0px;
 }
 #sea-waves{
