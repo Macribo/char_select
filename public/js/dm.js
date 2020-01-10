@@ -120,7 +120,7 @@ render = () => {
         // alert("hi there")
     
         $('#output').css('top','-30%');
-        $('.dm-says').css('padding-top','7%');
+        $('.dm-says').css('padding-top','9%');
     
 
     
