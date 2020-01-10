@@ -186,13 +186,13 @@ goToSlide(slideNumber);
 }
 
 $('#done').on('click touch', function(){
-  $('#hold-frame').fadeOut();
-  $('#keyboard-container').fadeIn();
-  $('#output').fadeIn();
-  $('.dm').fadeIn();
-  $('#skip').fadeOut();
-  $('#done').fadeOut();
-
+  // $('#hold-frame').fadeOut();
+  // $('#keyboard-container').fadeIn();
+  // $('#output').fadeIn();
+  // $('.dm').fadeIn();
+  // $('#skip').fadeOut();
+  // $('#done').fadeOut();
+location.replace('https://macribo.github.io/tall-order/public/index.html')
   
 });
 

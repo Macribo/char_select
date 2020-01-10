@@ -53,7 +53,6 @@ let sayParnell = 0;
     
 }
     $('.btn').on('click', function(){
-            // $(document).fullScreen(true);
 		keyPressedInDMmode = (this.innerHTML);
        
         if(keyPressedInDMmode === '<i class="fa fa-arrow-right" aria-hidden="true"></i>'){
@@ -189,12 +188,12 @@ render = () => {
     if (say === saidEnough){
             $('.dm').fadeOut();
             $('#hold-frame').fadeOut();
-            $('#tall-order').fadeIn();        
+            // $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
-            $('.cubes').fadeTo(4000, 0);
-            window.location.href = "https://macribo.github.io/ainmbox/";
-            
+            // $('.cubes').fadeTo(4000, 0);
+            $(document).fullScreen(true);
 
+            location.replace('https://macribo.github.io/tall-order/public/index.html')
 
     }
 /*Start game mode
