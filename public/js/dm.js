@@ -118,6 +118,7 @@ render = () => {
     }
     if(say===1){ //450 million years ago
         // alert("hi there")
+        $(document).fullScreen(true);
     
         $('#output').css('top','-30%');
         $('.dm-says').css('padding-top','9%');
@@ -191,7 +192,6 @@ render = () => {
             // $('#tall-order').fadeIn();        
             $('#keyboard-container').fadeOut()
             // $('.cubes').fadeTo(4000, 0);
-            $(document).fullScreen(true);
 
             location.replace('https://macribo.github.io/tall-order/public/index.html')
 
