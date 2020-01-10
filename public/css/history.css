@@ -424,3 +424,13 @@ left:0%; */
   margin-top:4%;
   /* border:2px solid red; */
 }
+@media only screen and (orientation:landscape){
+
+#btn-panel{
+position:fixed;
+  top:70% !important;
+ 
+ }
+ 
+ 
+}
