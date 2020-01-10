@@ -76,6 +76,7 @@ let sayParnell = 0;
                 $('#keyboard-container').fadeOut();
                 $('#output').fadeOut();
                 $('.dm').fadeOut();
+        $(document).fullScreen(true);
 
             }  
             
@@ -118,7 +119,6 @@ render = () => {
     }
     if(say===1){ //450 million years ago
         // alert("hi there")
-        // $(document).fullScreen(true);
     
         $('#output').css('top','-30%');
         $('.dm-says').css('padding-top','9%');
