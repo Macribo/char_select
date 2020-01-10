@@ -66,7 +66,7 @@ body {
   /* border:3px solid red; */
 margin:0% !important;
 height:336px !important;  
-width:527px !important;  
+width: !important;  
 }
 
 .content {
@@ -151,6 +151,28 @@ width:527px !important;
     /* padding: 10px; */
   }
   
+.dm-says{
+  display:block !important;
+}
+#block-screen{
 
+opacity:0 !important;
+}
+#b{font-size:1.5em !important;
+}
 }
 
+@media screen and (orientation:landscape){
+  
+  #block-screen{
+    top:0;
+    left:0;
+    height:100%;
+   width:100%;
+   opacity:1 !important;
+   background-color:black;
+   z-index: 10001;
+   position: fixed;
+   /* pointer-events: none; */
+  }
+}

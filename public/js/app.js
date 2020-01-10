@@ -19,7 +19,8 @@ let englishProse = [
   ``
 ];
 
-
+let blocker = document.getElementById('block-screen');
+blocker.style.opacity="0";
 let aboutIsRunning = false;
 verse2 = () => {
     setTimeout(function() {

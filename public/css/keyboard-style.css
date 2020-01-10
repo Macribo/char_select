@@ -58,6 +58,7 @@
 	align-content: center;
 	text-align: center;
 	z-index: 999;
+	font-size:3em;
 	
 }
 
@@ -532,7 +533,7 @@ height:132px;}
 	}
 	
 	.fa-arrow-right{
-		font-size: 2em;
+		font-size: 7em;
 	}
 	.dm{
 		/* border:2px solid orange; */
@@ -563,7 +564,7 @@ height:132px;}
 
 }
 .btn{
-	font-size:3.25rem !important;
+	font-size:1.25rem !important;
 }
 
 #output{
