@@ -56,7 +56,7 @@ let sayParnell = 0;
             // $(document).fullScreen(true);
 		keyPressedInDMmode = (this.innerHTML);
        
-        if(keyPressedInDMmode === '<img src="./images/arrow.png">'){
+        if(keyPressedInDMmode === '<i class="fa fa-arrow-right" aria-hidden="true"></i>'){
             say++;
             
             render();     
@@ -102,6 +102,12 @@ window.addEventListener("orientationchange", function() {
 }, false);
 render = () => {
     console.log(say)
+
+    if(say === 0){
+
+	
+        $('.special-btns-during-dm-mode').css('opacity','1')
+    }
     if(say === sayParnell){
         $('.dm').css('background-image','url(./images/0.png)');
         $('.dm-says').css('color','gray');
