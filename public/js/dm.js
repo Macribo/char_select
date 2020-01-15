@@ -132,12 +132,11 @@ render = () => {
         $('#output').css('top','-30%');
         $('.dm-says').css('margin-top','16%');
         $('.dm-says').css('padding-top','135%');
-
-    
+ 
     }
     if(say === sayBanba){
         $('#b').addClass('special-btns-during-dm-mode');
-        $('#b').text('Origin');
+        $('#b').text('Origins...');
         $('#b').css('opacity','1');
         $('#b').css('z-index','10000');
         
